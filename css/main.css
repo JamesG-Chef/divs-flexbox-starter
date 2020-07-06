@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #14213d;
   height: 100%;
 }
 
@@ -113,24 +113,34 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
-  align-items: center;
+
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #e5e5e5;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 0.75em;
+  background-color: #14213d;
   height: 300px;
   width: 30%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  padding: 10px;
 }
 
+ span {
+  color: #fca311;
+ }
 
+h1 {
+  color: #fca311;
+}
 
+.div-2, .div-3 {
+  border-left: 10px;
+  border-color: #e5e5e5;
+}
 
 /* ==========================================================================
    Helper classes
