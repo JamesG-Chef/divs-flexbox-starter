@@ -126,20 +126,32 @@ body {
   width: 30%;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  justify-content: top;
+  align-items: center;
+ 
+}
+h1, .tagline {
+  display: flex;
+  flex-direction: row;
+  color: #fca311;
 }
 
- span {
+.tagline {
+    color: #e5e5e5;
+}
+
+span {
   color: #fca311;
  }
 
-h1 {
+h3 {
   color: #fca311;
 }
 
 .div-2, .div-3 {
-  border-left: 10px;
-  border-color: #e5e5e5;
+  border-left: 2px #e5e5e5 solid;
+  height: 300px;
+  padding: 0 0 0 20px;
 }
 
 /* ==========================================================================
